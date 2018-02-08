@@ -17,6 +17,7 @@ public class Main {
        if ("+".equals(operation)) {
            answer = add(a, b);
            System.out.println("Answer is: " + answer);
+
        } else {
            System.out.println("Unsupported operation");
        }
@@ -24,5 +25,8 @@ public class Main {
 
    private static int add(int a, int b) {
        return a + b;
+   }
+   private static int minus(int a, int b) {
+       return a - b;
    }
 }
